@@ -1,0 +1,249 @@
+<body>
+
+<!--*******************************BARRA DE NAVEGACIÓN***************************************************-->
+<header>
+  <div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper white">
+          <a href="#" class="brand-logo center"><img src="imagenes/log.jpg" width="150px" align="center"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="icono fas fa-bars"></i></a>
+
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="Index.php" class="black-text black-darken-2"><i class="fas fa-home"></i> Inicio</a></li>
+          <li><a class="dropdown-trigger black-text black-darken-2" href="#categorias" data-target="dropdown1">Categorías</a></li>
+          <a class="waves-effect waves-light btn">Ingresar</a>
+
+          </ul>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="#acerca" class="black-text black-darken-2">Nuestros beneficios</a></li>
+          <li><a href="#acerca" class="black-text black-darken-2">Acerca de</a></li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+
+<!--BARRA DE NAVEGACIÓN LATERAL PARA DISPOSITIVOS PEQUEÑOS-->
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="Index.php" class="black-text black-darken-2"><i class="fas fa-home"></i> Inicio</a></li>
+      <li><a href="#acerca" class="black-text black-darken-2"><i class="fas fa-smile"></i> Categorías</a></li>
+      <li><a href="#acerca" class="black-text black-darken-2">Nuestros beneficios</a></li>
+      <li><a href="#acerca" class="black-text black-darken-2">Acerca de nosotros</a></li>
+      <li><a class="waves-effect waves-light btn">Ingresar</a></li>
+    </ul>
+</header>
+
+<!--**************************************************PARALLAX********************************************************************-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+
+        <h1 class="encabezado">¡Los mejores juegos!</h1>
+        <div class="row center">
+          <h5>Los juegos más recientes al alcance de tu mano</h5>
+        </div>
+        <div class="row center">
+          <a href="" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Empezar</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="imagenes/p01.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+<!-- *************************DATOS DE LA EMPRESA***********************************-->
+<div class="datos">
+  <div class="row center">
+    <br><br><br>
+    <div class="col s3 m3 l3"> <img class="responsive-img" src="imagenes/a2.jpg"> </div>
+    <div class="col s6 m6 l6"> <h4 class="descubre">Descubre sobre nosotros</h4> <br> 
+      <br>
+      <p> Nuestra misión es que todo el mundo pueda tener acceso a sus juegos favoritos. Con la colaboración de nuestros proveedores, brindamos los mejores y más actuales juegos para que puedas drisfutar de una excelente experiencia. Con más de un millón de usuarios, GAMEOVER es una de las mejores tiendas online. </p> <br><br>
+    </div>
+    <div class="col s3 m3 l3"> <img class="responsive-img" src="imagenes/a1.jpg"> </div>
+  </div>
+</div>
+<!-- *************************************************CONTENIDO*********************************************************************-->
+<div class="servicios">
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row center">
+        <div class="col s12 m12 l12"> <img src="imagenes/servicios.jpg" class="responsive-img"> </div>
+      </div>
+      <div class="row center">
+        <div class="col s12 m12 l12">
+        <p>GAME OVER STORE ofrece una gran variedad de funcionalidades para todo tipo de cliente.Recalcando la calidad de cada uno de los servicios. </p>
+        </div>
+      </div>
+      <div class="row center">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text"> <i class="far fa-paper-plane"></i> </h2>
+            <h5 class="center">A tu alcance</h5>
+
+            <p class="light">¡Encuentra tu juegos favoritos en donde quiera que estés! Descarga nuestra App en dispositivos Android y iOS. Enviamos notificaciones sobre nuevos lanzamientos (Nunca Spam. Lo prometemos).</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4 center">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="fas fa-bookmark"></i></h2>
+            <h5 class="center">Disponibilidad</h5>
+
+            <p class="light">Consulta todo nuestro catálogo de productos desde nuestro sitio web y también puedes consultar precios y disponibilidad en tiempo real.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4 center">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="fas fa-gift"></i></h2>
+            <h5 class="center"> Gift</h5>
+
+            <p class="light">¿No sabes qué regalar? Tenemos tarjetas de regalo para esos momentos especiales.
+        Y seguimos trabajando para agregar servicios que se adapten a lo que buscas.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--IMAGENES DE DESCUENTOS-->
+<div class="ofertas">
+  <br><br>
+    <h4 align="center" class="black-text text-black">Algunos estrenos globales</h4>
+    <p align="center">Más de 270.000 descargas desde nuestra tiendas online.<br>
+Descubre todos los juegos online que han tenido éxito en el mundo.</p>
+    <div class="row">
+    <div class="col s12 m12">
+        <div class="carousel">
+
+        <a class="carousel-item z-depth-3"><img src="imagenes/c1.jpg"></a>
+        <a class="carousel-item z-depth-3"><img src="imagenes/c2.jpg"></a>
+        <a class="carousel-item z-depth-3"><img src="imagenes/c3.jpg"></a>
+        <a class="carousel-item z-depth-3"><img src="imagenes/c4.jpg"></a>
+        <a class="carousel-item z-depth-3"><img src="imagenes/c5.jpg"></a>
+        </div>
+      </div>
+    </div>
+</div>
+<br>
+<br>
+<!--*******************************************CATEGORIAS*********************************************************-->
+<div class="container">
+  <div class="row center">
+    <div class="col s12 m12 l12"> <img src="imagenes/categorias.jpg" class="responsive-img"> </div>
+  </div>
+  <br>
+  <section class="categoria" id="categorias">
+    <div class="row">
+      <div class="col s12 m3 l3">
+          <div class="cat">
+           <i class="icat fas fa-bolt"></i>
+          </div>
+          <h4 align="center" style="font-weight: 500;">AVENTURA</h4>
+          <p align="center">¿Quiéres sentir la adrenalina?, descubre aquí los mejores juegos de aventura</p> <br>
+      </div>
+
+      <div class="col s12 m3 l3">
+          <div class="cat">
+            <i class="icat fas fa-gavel"></i> 
+          </div>
+          <h4 align="center" style="font-weight: 500;">ARCADE</h4>
+          <p align="center">Persigue fantasmas, y dispara como en los juegos de Mega Man.</p> <br>
+      </div>
+
+      <div class="col s12 m3 l3">
+          <div class="cat">
+            <i class="icat fas fa-futbol"></i> 
+          </div>
+          <h4 align="center" style="font-weight: 500;">DEPORTE</h4>
+          <p align="center"> No fortalecerás tus músculos, pero sí tus dedos, dándolo todo con el balón, la tabla o la pelota en nuestros sanos juegos de deportes</p><br>
+      </div>
+
+      <div class="col s12 m3 l3">
+          <div class="cat">
+            <i class="icat fas fa-car"></i> 
+          </div>
+          <h4 align="center" style="font-weight: 500;">CARRERA</h4>
+          <p align="center">¿Te gusta la velocidad? Si es así, descubre los mejores juegos de carreras, autos y motos disponibles.</p><br>
+      </div>
+
+    </div>
+  </section>
+    <br>
+    <br>
+</div> <!-- fin de contenedor-->
+
+<!--********************************************************BANNER*********************************************************-->
+<section>
+    <div class="fullscreen">
+      <div class="slider">
+          <ul class="slides">
+          <li>
+              <img src="imagenes/i1.jpg"> 
+              <div class="caption center-align">
+                <h3>GAME STORE!</h3>
+                <h5 class="white-text">Los mejores juegos los encuentras aquí</h5>
+              </div>
+             </li>
+
+            <li>
+              <img src="imagenes/i2.jpg"> 
+              <div class="caption left-align">
+                <h3>DESCARGAS</h3>
+                <h5 class="white-text"> ¡Descargas seguras y rápidas!</h5>
+              </div>
+            </li>
+
+            <li>
+              <img src="imagenes/i4.jpg">
+              <div class="caption right-align">
+                <h3>ACTUALIZACIONES</h3>
+                <h5 class="white-text">Cada semana más y mejores juegos</h5>
+              </div>
+            </li>
+
+            <li>
+              <img src="imagenes/i5.jpg">
+              <div class="caption center-align">
+                <h3>COMPRAS</h3>
+                <h5 class="white-text">¡Ahora puedes comprar tus juegos favoritos!</h5>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </div>
+</section>
+
+<!--*************************************PARALLAX FINAL***************************************************-->
+  <div class="container">
+    <div class="cifras">
+    <br><br>
+    <h4 align="center"><b>Cifras importantes</b></h4><br><br>
+      <div class="row center">
+          <div class="col s12 m6 l3">
+            <i class="cifra fas fa-users"></i> <br>
+                <h2><b>1.000.00</b></h2>
+                <p>Usuarios</p>
+          </div>
+
+           <div class="col s12 m6 l3">
+            <i class="cifra fas fa-dollar-sign"></i> <br>
+                <h2><b>100</b></h2>
+                <p>Proveedores</p>
+          </div>
+          <div class="col s12 m6 l3">
+            <i class="cifra fas fa-globe"></i> <br>
+                <h2><b>113</b></h2>
+                <p>Países</p>
+          </div>
+          <div class="col s12 m6 l3">
+            <i class="cifra fas fa-download"></i> <br>
+                <h2><b>1.580.00</b></h2>
+                <p>Descargas</p>
+          </div>
+      </div>
+    </div>
+  </div>

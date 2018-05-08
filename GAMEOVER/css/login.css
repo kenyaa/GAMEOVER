@@ -1,0 +1,53 @@
+*{
+	text-decoration: none;
+	font-family:Segoe UI Symbol;
+	font-size: 1rem;
+}
+a{
+	color: #00bcd4;
+}
+
+h3{
+	font-size: 2rem;
+	color: black;
+}
+p{
+	color: black;
+}
+
+.log{
+	font-size: 110px;
+	color: #00bcd4;
+}
+
+body{
+}
+form{
+	width: 500px;
+	margin:auto;
+	position:relative;
+}
+input{
+	width: 100%;
+	border:none;
+	border-radius: 5px;
+}
+.enviar{
+	background:#00bcd4;
+	color: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	height: 34px;
+	margin-top: 5px;
+}
+
+.enviar:hover{
+	cursor: pointer;
+}
+
+@media (max-width: 480px){
+	form{
+		width: 100%;
+}
+
+}
